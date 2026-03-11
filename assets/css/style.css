@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(2, 164, 166);
+    color: azure;
+}
+h1{
+    color: rgb(50, 8, 157);
+}
+.h1{
+    color: rgb(86, 226, 43);/*color de la letra*/
+    font-size: 45px;/*tamaño de la fuente*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;/*tipo de fuente o letra*/
+    text-transform: uppercase;/* cambia el formato de la fuente a mayuscula*/
+}
