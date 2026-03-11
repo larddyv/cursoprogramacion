@@ -10,3 +10,8 @@
 - Jose Melendez
 # Instructora
 - Jenny Rojas
+
+[Sitio web academia](https://academiaendigital.com)
+
+![Team](assets/images/team.jpg)
+
