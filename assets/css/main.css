@@ -29,6 +29,9 @@ ul{
 a{ 
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 .logo{
     width: 200px;
 }
@@ -43,7 +46,7 @@ a{
     color: var(--terciary-color);
 }
 /*quienes somos*/
-.container-fluid{
+.quienes-somos{
     display: grid;
     grid-template-columns: 1fr 1fr; /*se divide en dos columnas*/
 }
@@ -53,6 +56,9 @@ a{
 }
 .padding-50x{
     padding: 50px 30px;
+}
+.padding-80px{
+    padding: 80px 30px;
 }
 h2{
     font-size: 2rem;
@@ -75,4 +81,59 @@ p{
 .btn-main-color:hover{
     background-color: var(--grey-dark);
     color: var(--main-color);
+}
+
+/*SERVICIOS*/
+.container-fluid{
+    width: 100%;
+    background-color: var(--white-gray);
+}
+.main-color{
+    color: var(--main-color);
+}
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px; 
+}
+.center{
+    text-align: center;
+}
+.main-color{
+    color:var(--main-color)
+}
+.black:hover{
+    color: var(--terciary-color);
+}
+
+/**footer**/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.logo-footer{
+    width: 300px;
+}
+.black{
+    background-color: var(--black);
+    color: var(--main-color);
+}
+.footer ul li a{
+    color: var(--main-color);
+}
+.footer ul li a:hover{
+    color: var(--terciary-color);
+}
+.footer h3{
+    color: var(--secundary-color);
+    padding-left: 30px;
+}
+.social-icons a{
+    color: var(--terciary-color);
+    font-size: 2rem;
+    padding-left: 25px;
+}
+.social-icons a:hover{
+    color: var(--white-gray);
 }
