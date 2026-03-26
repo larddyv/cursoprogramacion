@@ -1,0 +1,70 @@
+.box{
+    width: 150px;
+    height: 150px;
+    color: brown;
+    animation: box; /*nombre de la animcaion*/
+    animation-duration: 5s;/*tiempo de la animacion*/
+    animation-iteration-count: infinite;
+    position: relative;
+}
+/*@keyframes box {
+    from{ background-color: blue;}
+    to{ background-color: blueviolet;}
+}*/
+
+@keyframes box{
+    0%{left: 0px; top: 0px;}
+    100%{left: 600px; top: 0px;}
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+   
+    color: rgb(18, 17, 17);
+    animation: box1; /*nombre de la animcaion*/
+    animation-duration: 5s;/*tiempo de la animacion*/
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes box1{
+    0%{ left: 0px; top: 200px;}
+    100%{ left: 400px; top: 200px;}
+    
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+  
+    color: rgb(30, 6, 76);
+    animation: box2; /*nombre de la animcaion*/
+    animation-duration: 5s;/*tiempo de la animacion*/
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes box2{
+    0%{left: 0px; top: 600px;}
+    100%{left: 600px; top: 600px;}
+
+}
+
+.box3{
+    width: 150px;
+    height: 150px;
+   
+    color: rgb(213, 32, 144);
+    animation: box3; /*nombre de la animcaion*/
+    animation-duration: 5s;/*tiempo de la animacion*/
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes box3{
+    0%{left: 0px; top: 0px;}
+    100%{left: 600px;top: 0px;}
+}
+
+
