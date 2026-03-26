@@ -89,7 +89,7 @@ p{
 /*SERVICIOS*/
 .container-fluid{
     width: 100%;
-    background-color: var(--white-gray);
+   /* background-color: var(--white-gray);*/
 }
 .main-color{
     color: var(--main-color);
