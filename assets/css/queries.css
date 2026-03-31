@@ -7,17 +7,23 @@ Cambiamos el diseño por algo mas ancho.
 @media (min-width: 768px) {
     .quienes-somos{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 /*SERVICIOS*/
 .container-fluid{
-    width: 100%;
-    margin-top: 0;}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;
+}
 
 .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 30px;
+}
+
+.logo-footer{
+    max-width: 200px;
 }
 
 .contacto{
@@ -34,4 +40,32 @@ Desktop (Breakpoints: 1024px en adelante)
 Cambiamos el diseño por algo mas ancho.
 ==================================*/
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+     .quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/*SERVICIOS*/
+.container-fluid{
+    width: 100%;
+    margin-top: 0;}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.logo-footer{
+    width: 300px;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mapa{
+    height: 400px;
+}
+}
