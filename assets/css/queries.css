@@ -28,11 +28,17 @@ Cambiamos el diseño por algo mas ancho.
 
 .contacto{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
 }
 
 .mapa{
     height: 400px;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
 }
 }
 /* =============================
@@ -52,7 +58,7 @@ Cambiamos el diseño por algo mas ancho.
 
 .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 30px;
 }
 
