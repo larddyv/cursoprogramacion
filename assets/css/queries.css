@@ -1,0 +1,37 @@
+
+/* =============================
+Tablets (Breakpoints: 768px a 1023px)
+Cambiamos el diseño por algo mas ancho.
+==================================*/
+
+@media (min-width: 768px) {
+    .quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/*SERVICIOS*/
+.container-fluid{
+    width: 100%;
+    margin-top: 0;}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mapa{
+    height: 400px;
+}
+}
+/* =============================
+Desktop (Breakpoints: 1024px en adelante)
+Cambiamos el diseño por algo mas ancho.
+==================================*/
+
+@media (min-width: 1024px) {}

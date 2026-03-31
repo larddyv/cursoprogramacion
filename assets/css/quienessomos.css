@@ -1,0 +1,41 @@
+
+
+    /*quienes somos*/
+.quienes-somos{
+    display: flex;
+    flex-direction: column;
+}
+.img-fluid{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+
+}
+.padding-50x{
+    padding: 50px 30px;
+}
+.padding-80px{
+    padding: 80px 30px;
+}
+h2{
+    font-size: 2rem;
+}
+.main-color-font{
+    color: var(--white-gray);
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-main-color{
+    width: 50%;
+    background-color: var(--white-gray);
+    color: var(--terciary-color);
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.btn-main-color:hover{
+    background-color: var(--grey-dark);
+    color: var(--main-color);
+}
