@@ -47,13 +47,16 @@ header {
 
 .main-menu a {
     text-decoration: none;
-    color: var(--font-dark);
-    font-weight: 600;
-    transition: color 0.3s;
+    color: #0056b3;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 .main-menu a:hover {
-    color: var(--primary-color);
+    background-color: rgba(0, 86, 179, 0.1); /* Azul muy clarito */
+    color: #003d7a;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 /* Sección Reseña Empresa */
