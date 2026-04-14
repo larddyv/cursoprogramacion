@@ -263,6 +263,68 @@ header {
     font-size: 0.85rem;
 }
 
+/* 1. Contenedor principal: Aumentamos el gap para dar aire a las fotos grandes */
+.productos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px; 
+    padding: 80px 20px;
+    flex-wrap: wrap;
+}
+
+/* 2. Tarjetas de producto: Subimos el max-width para permitir imágenes más anchas */
+.iodo-topico, .iodo-jabonoso {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    max-width: 450px; /* Antes era 300px, ahora son mucho más imponentes */
+    flex: 1 1 400px; /* Ayuda a que crezcan pero tengan un tope */
+}
+
+/* 3. Imágenes: Aumentamos la altura y mantenemos la proporción */
+.img-iodotop, .img-iodojab {
+    width: 100%;
+    height: 450px; /* Altura aumentada significativamente */
+    object-fit: contain; /* CRUCIAL: Mantiene la forma sin deformar */
+    margin-bottom: 20px;
+    
+    /* Animación de entrada suave */
+    animation: aparecerYFlotar 1.2s ease-out forwards;
+}
+
+/* --- PLUS DE ANIMACIONES PROFESIONALES --- */
+
+/* Efecto al pasar el mouse: La tarjeta se eleva y resalta */
+.iodo-topico:hover, .iodo-jabonoso:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 74, 153, 0.15);
+}
+
+/* Animación de entrada: Desliza desde abajo con opacidad */
+@keyframes aparecerYFlotar {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación constante: Efecto de levitación sutil para productos médicos */
+.img-iodotop, .img-iodojab {
+    animation: levitacionSutil 5s infinite ease-in-out;
+}
+
+@keyframes levitacionSutil {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
 
 
 
